@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" id="whole">
+  <div id="toppart" >
+      <div id="cover"></div> 
+      <div id="insides">
+          <h1>
+          Lauren Hesterman
+
+          </h1>
+          <h3>Full Stack Software Engineer</h3>
+          
+    </div>
+    
+    
+  </div>
+  <div id="buttondivs">
+      <button [routerLink]="['about']"><h3>About</h3></button>
+      <button [routerLink]="['work']"><h3>Work</h3></button>
+      <button [routerLink]="['contact']" ng-hover="myStyle={'color':'blue'}" ><h3>Contact</h3></button>
+      </div>
+
+
+
+<div id="outlet">
+<router-outlet ></router-outlet>
+</div>
+</div>
